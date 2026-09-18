@@ -1,0 +1,4 @@
+crewai==1.15.22
+langchain-core==1.6.3
+langgraph==1.2.11
+semantic-kernel==1.44.1

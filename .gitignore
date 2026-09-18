@@ -1,0 +1,7 @@
+.demo-build/
+.pytest_cache/
+__pycache__/
+audit/*.jsonl
+
+
+*.zip

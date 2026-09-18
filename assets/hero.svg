@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Abyss Independent Authority</title>
+  <desc id="desc">Four AI frameworks converge on one independent Java authority boundary.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#050816"/><stop offset=".55" stop-color="#0b1630"/><stop offset="1" stop-color="#07101e"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="8" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#7dd3fc" stroke-opacity=".07"/></pattern>
+  </defs>
+  <rect width="1200" height="420" rx="24" fill="url(#bg)"/><rect width="1200" height="420" rx="24" fill="url(#grid)"/>
+  <circle cx="1030" cy="82" r="180" fill="#2563eb" opacity=".08"/><circle cx="160" cy="390" r="210" fill="#7c3aed" opacity=".08"/>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="72" y="82" fill="#7dd3fc" font-size="16" font-weight="700" letter-spacing="4">ABYSS APPLIED · REFERENCE ARCHITECTURE</text>
+    <text x="72" y="146" fill="#f8fafc" font-size="48" font-weight="800">Independent Authority</text>
+    <text x="72" y="188" fill="#b8c6dc" font-size="21">Four AI frameworks. One deterministic boundary.</text>
+    <g transform="translate(72 238)" font-size="15" font-weight="700">
+      <g fill="#101b32" stroke="#334a6d"><rect width="148" height="46" rx="12"/><text x="74" y="29" text-anchor="middle" fill="#dce9f9">CrewAI</text></g>
+      <g transform="translate(164)" fill="#101b32" stroke="#334a6d"><rect width="168" height="46" rx="12"/><text x="84" y="29" text-anchor="middle" fill="#dce9f9">Semantic Kernel</text></g>
+      <g transform="translate(348)" fill="#101b32" stroke="#334a6d"><rect width="148" height="46" rx="12"/><text x="74" y="29" text-anchor="middle" fill="#dce9f9">LangGraph</text></g>
+      <g transform="translate(512)" fill="#101b32" stroke="#334a6d"><rect width="148" height="46" rx="12"/><text x="74" y="29" text-anchor="middle" fill="#dce9f9">LangChain</text></g>
+    </g>
+    <path d="M732 261H805" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" filter="url(#glow)"/><path d="m798 253 10 8-10 8" fill="none" stroke="#7dd3fc" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <g transform="translate(830 214)"><rect width="294" height="96" rx="18" fill="#0b2540" stroke="url(#accent)" stroke-width="2"/><text x="147" y="37" fill="#f8fafc" font-size="19" font-weight="800" text-anchor="middle">JAVA AUTHORITY</text><text x="147" y="67" fill="#7dd3fc" font-size="15" font-weight="700" text-anchor="middle">ALLOW  ·  DENY  ·  EVIDENCE</text></g>
+    <g transform="translate(72 342)" font-size="15"><circle cx="7" cy="-5" r="6" fill="#22c55e"/><text x="24" fill="#9fb0c8">Framework bindings request capability.</text><circle cx="341" cy="-5" r="6" fill="#f59e0b"/><text x="358" fill="#9fb0c8">Bindings never grant authority.</text><circle cx="663" cy="-5" r="6" fill="#38bdf8"/><text x="680" fill="#9fb0c8">Invalid transitions remain unavailable.</text></g>
+    <text x="72" y="388" fill="#64748b" font-size="13" letter-spacing="1.4">INFINITE SOLUTIONS · APPLICABLE AND APPLIED</text>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+repo_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+image_name="abyss-independent-authority:demo"
+
+if ! command -v docker >/dev/null 2>&1; then
+  echo "Docker is required. Install Docker Desktop with WSL integration, then run ./demo again." >&2
+  exit 1
+fi
+
+docker build --quiet --tag "$image_name" "$repo_dir" >/dev/null
+docker run --rm "$image_name"
+
