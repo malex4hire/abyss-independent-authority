@@ -5,3 +5,10 @@ audit/*.jsonl
 
 
 *.zip
+
+# Process, not product. Public repos carry the README, the code and the visual.
+CLAUDE.md
+DECISIONS.md
+LESSONS.md
+PortfolioDecisions.md
+code-review/
